@@ -1,0 +1,24 @@
+{
+    "name": "Space Duck",
+    "comment": "Ported for Terminix Colour Scheme",
+    "use-theme-colors": false,
+    "foreground-color": "#ecf0c1",
+    "background-color": "#0f111b",
+    "palette": [
+        "#000000",
+       	"#e33400",
+        "#5ccc96",
+        "#b3a1e6",
+        "#00a3cc",
+        "#f2ce00",
+        "#7a5ccc",
+        "#686f9a",
+        "#686f9a",
+        "#e33400",
+        "#5ccc96",
+        "#b3a1e6",
+        "#00a3cc",
+        "#f2ce00",
+        "#7a5ccc",
+        "#f0f1ce"]
+}
