@@ -1,6 +1,39 @@
 #
 # wm independent hotkeys
+# Focused desktop window gaps scroll
+super + button{4,5}
+	bspc config -d focused window_gap $((`bspc config -d focused window_gap` {-,+} 5 ))
+
+# Global window gaps scroll
+super + alt + button{4,5}
+	bspc config window_gap $(( $(bspc config window_gap) {-,+} 5 ))
 #
+# Raises volume
+super + F3
+	amixer -D pulse sset Master 20%+
+# Lowers volume
+super + F2
+	amixer -D pulse sset Master 20%-
+# Mute volume
+super + F1
+		amixer -D pulse sset Master 1+ toggle
+
+# Brightness
+super + F11
+	xbacklight -dec 10
+super + F12 
+	xbacklight -inc 10
+super + alt + m 
+	xbacklight -set 20
+#powerOff
+super + alt + ctrl p
+	tilix -e poweroff
+#ranger
+alt + shift + o
+	tilix -e ranger
+#nautilus
+super + e 
+	nautilus
 
 #keyboard layout
 super + x
@@ -11,7 +44,7 @@ super + Return
 	tilix	
 
 # program launcher
-super + @space
+super + d
 	rofi -show drun	
 
 # make sxhkd reload its configuration files:
