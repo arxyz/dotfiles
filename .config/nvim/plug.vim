@@ -16,6 +16,7 @@ Plug 'ryanoasis/vim-devicons'
 Plug 'lilydjwg/colorizer'
 Plug 'leafgarland/typescript-vim'
 Plug 'uiiaoo/java-syntax.vim'
+Plug 'junegunn/limelight.vim'
 
 "Git integration
 Plug 'mhinz/vim-signify'
@@ -37,6 +38,10 @@ Plug 'vim-python/python-syntax'
 Plug 'mbbill/undotree'
 Plug 'prettier/vim-prettier', {'do': 'yarn install'}
 
+Plug 'godlygeek/tabular'
+Plug 'plasticboy/vim-markdown'
+Plug 'iamcco/mathjax-support-for-mkdp'
+Plug 'iamcco/markdown-preview.vim'
 "code modification
 Plug 'scrooloose/nerdcommenter'
 Plug 'honza/vim-snippets'
