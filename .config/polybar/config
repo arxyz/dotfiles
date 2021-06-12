@@ -119,9 +119,9 @@ font-0 = fixed:pixelsize=10;1
 font-1 = unifont:fontformat=truetype:size=8:antialias=false;0
 font-2 = siji:pixelsize=10;1
 
-modules-left = bspwm i3
+modules-left = bspwm
 modules-center = xwindow 
-modules-right = alsa date xkeyboard memory cpu wlan eth battery temperature 
+modules-right =  memory cpu battery temperature 
 
 tray-position = right
 tray-padding = 2
@@ -342,13 +342,13 @@ format-disconnected =
 type = internal/date
 interval = 5
 
-date =
+date = "%Y/%m/%d%"
 date-alt = " %Y-%m-%d"
 
 time = %H:%M
 time-alt = %H:%M:%S
 
-format-prefix = 
+;format-prefix = 
 format-prefix-foreground = ${colors.foreground-alt}
 format-underline = #0a6cf5
 

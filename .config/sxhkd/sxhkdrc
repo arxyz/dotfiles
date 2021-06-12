@@ -1,5 +1,20 @@
 #
 # wm independent hotkeys
+# open firefox developer edition
+super + alt + z
+	/opt/firefox-dev/firefox
+# open opera 
+super + alt + x
+	opera
+# open brave 
+super + alt + c
+	brave-browser
+# open firefox 
+super + alt + p
+	firefox
+#networkmanager
+alt + shift + n
+ ~/.scripts/rofi-network-manager/rofi-network-manager.sh
 # Focused desktop window gaps scroll
 super + button{4,5}
 	bspc config -d focused window_gap $((`bspc config -d focused window_gap` {-,+} 5 ))
@@ -10,14 +25,13 @@ super + alt + button{4,5}
 #
 # Raises volume
 super + F3
-	amixer -D pulse sset Master 20%+
+	amixer -D pulse sset Master 5%+
 # Lowers volume
 super + F2
-	amixer -D pulse sset Master 20%-
+	amixer -D pulse sset Master 5%-
 # Mute volume
 super + F1
 		amixer -D pulse sset Master 1+ toggle
-
 # Brightness
 super + F11
 	xbacklight -dec 10
@@ -28,6 +42,14 @@ super + alt + m
 #powerOff
 super + alt + ctrl p
 	tilix -e poweroff
+
+#suspend
+super + alt + ctrl s
+	betterlockscreen -s
+
+#lock
+super + alt + ctrl l
+	betterlockscreen -l
 #ranger
 alt + shift + o
 	tilix -e ranger
