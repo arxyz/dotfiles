@@ -1,3 +1,3 @@
 #!/bin/bash
 
-echo -e "%{F#2BB3B9} %{F#2BB3B9}Ramss%{u-}"
+echo -e "%{F#45322e} %{F#45322e}Ramss%{u-}"

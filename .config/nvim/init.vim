@@ -23,3 +23,4 @@ source ~/.config/nvim/plug-settings/vim-closetag.vim
 source ~/.config/nvim/plug-settings/vim-dev-icon.vim
 source ~/.config/nvim/plug-settings/supertab.vim
 source ~/.config/nvim/plug-settings/emmet.vim
+source ~/.config/nvim/plug-settings/limelight.vim
