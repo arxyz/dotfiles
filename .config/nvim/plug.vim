@@ -59,5 +59,7 @@ Plug 'letientai299/vim-react-snippets', { 'branch': 'es6' }
 Plug 'honza/vim-snippets'
 Plug 'ervandew/supertab'
 Plug 'tpope/vim-surround'
+"productivity
+Plug 'wakatime/vim-wakatime'
 
 call plug#end()

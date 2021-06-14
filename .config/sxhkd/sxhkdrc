@@ -34,11 +34,9 @@ super + F1
 		amixer -D pulse sset Master 1+ toggle
 # Brightness
 super + F11
-	xbacklight -dec 10
+	xbacklight -dec 5
 super + F12 
-	xbacklight -inc 10
-super + alt + m 
-	xbacklight -set 20
+	xbacklight -inc 5
 #powerOff
 super + alt + ctrl p
 	tilix -e poweroff
