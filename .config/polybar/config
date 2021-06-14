@@ -167,7 +167,7 @@ label-layout = %layout%
 
 label-indicator-padding = 2
 label-indicator-margin = 1
-label-indicator-background = ${colors.secondary}
+label-indicator-background = #c9a974
 label-indicator-underline = ${colors.secondary}
 
 [module/filesystem]
