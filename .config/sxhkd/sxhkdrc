@@ -1,14 +1,14 @@
 #
 # wm independent hotkeys
-# open firefox developer edition
+# open chrome 
 super + alt + z
-	/opt/firefox-dev/firefox
-# open opera 
+	google-chrome
+# open brave
 super + alt + x
-	opera
-# open brave 
-super + alt + c
 	brave-browser
+# open firefox developer edition 
+super + alt + c
+	/opt/firefox-dev/firefox
 # open firefox 
 super + alt + p
 	firefox
